@@ -1,0 +1,354 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Bruch &#8212; Bruch 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="top" title="Bruch 1.0 documentation" href="index.html" />
+    <link rel="prev" title="Welcome to Bruch’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-bruch">
+<span id="bruch"></span><h1>Bruch<a class="headerlink" href="#module-bruch" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="bruch.Bruch">
+<em class="property">class </em><code class="descclassname">bruch.</code><code class="descname">Bruch</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="staticmethod">
+<dt id="bruch.Bruch._Bruch__makeBruch">
+<em class="property">static </em><code class="descname">_Bruch__makeBruch</code><span class="sig-paren">(</span><em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch._Bruch__makeBruch" title="Permalink to this definition">¶</a></dt>
+<dd><p>The method has to be static because it creates a new Bruch based on only the parameter
+:param value: The Zähler of the Bruch to be created
+:return: Bruch based only on value</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__abs__">
+<code class="descname">__abs__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__abs__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by abs()
+:return: Bruch with the absolute values of self.zaehler and self.nenner</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__add__">
+<code class="descname">__add__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__add__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by +
+:param other: The Object to be added to self
+:return: Bruch with other added to self</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__complex__">
+<code class="descname">__complex__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__complex__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by complex()
+:return: complex value of self.zaehler divided by self.nenner</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bruch.Bruch.__dict__">
+<code class="descname">__dict__</code><em class="property"> = mappingproxy({'__radd__': &lt;function Bruch.__radd__ at 0x03A9B810&gt;, '__rmul__': &lt;function Bruch.__rmul__ at 0x038DF0C0&gt;, '__str__': &lt;function Bruch.__str__ at 0x039EAC00&gt;, '__complex__': &lt;function Bruch.__complex__ at 0x03A358E8&gt;, '__doc__': None, '_Bruch__makeBruch': &lt;staticmethod object at 0x03A9A7F0&gt;, '__rsub__': &lt;function Bruch.__rsub__ at 0x03A9B7C8&gt;, '__imul__': &lt;function Bruch.__imul__ at 0x038DF150&gt;, '__init__': &lt;function Bruch.__init__ at 0x03A1E7C8&gt;, '__sub__': &lt;function Bruch.__sub__ at 0x03A9B8E8&gt;, '__ge__': &lt;function Bruch.__ge__ at 0x039EA978&gt;, '__add__': &lt;function Bruch.__add__ at 0x03A9B8A0&gt;, '__pow__': &lt;function Bruch.__pow__ at 0x03A95D20&gt;, '__iter__': &lt;function Bruch.__iter__ at 0x038DF030&gt;, '__itruediv__': &lt;function Bruch.__itruediv__ at 0x038DF108&gt;, '__rtruediv__': &lt;function Bruch.__rtruediv__ at 0x038DF1E0&gt;, '__isub__': &lt;function Bruch.__isub__ at 0x03A9BA08&gt;, '__abs__': &lt;function Bruch.__abs__ at 0x03A95DB0&gt;, '__invert__': &lt;function Bruch.__invert__ at 0x039EA810&gt;, '__gt__': &lt;function Bruch.__gt__ at 0x03A0BAE0&gt;, '__float__': &lt;function Bruch.__float__ at 0x03A1ED68&gt;, '__module__': 'bruch.Bruch', '__hash__': None, '__eq__': &lt;function Bruch.__eq__ at 0x03A35AE0&gt;, '__dict__': &lt;attribute '__dict__' of 'Bruch' objects&gt;, '__mul__': &lt;function Bruch.__mul__ at 0x038DF078&gt;, '__lt__': &lt;function Bruch.__lt__ at 0x03A0B858&gt;, '__neg__': &lt;function Bruch.__neg__ at 0x03A95C90&gt;, '__int__': &lt;function Bruch.__int__ at 0x03A1E4F8&gt;, '__weakref__': &lt;attribute '__weakref__' of 'Bruch' objects&gt;, '__le__': &lt;function Bruch.__le__ at 0x03A0BE40&gt;, '__iadd__': &lt;function Bruch.__iadd__ at 0x03A9B930&gt;, '__truediv__': &lt;function Bruch.__truediv__ at 0x03A9B858&gt;})</em><a class="headerlink" href="#bruch.Bruch.__dict__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__eq__">
+<code class="descname">__eq__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__eq__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by ==
+:param other: Value to be compared with
+:return: True if the 2 Bruchs are equal</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__float__">
+<code class="descname">__float__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__float__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by float()
+:return: float value of self.zaehler divided by self.nenner</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__ge__">
+<code class="descname">__ge__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__ge__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by &gt;=
+:param other: Value to be compared with
+:return: True if self is greater than other or equal to other</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__gt__">
+<code class="descname">__gt__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__gt__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by &gt;
+:param other: Value to be compared with
+:return: True if self is greater than other</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bruch.Bruch.__hash__">
+<code class="descname">__hash__</code><em class="property"> = None</em><a class="headerlink" href="#bruch.Bruch.__hash__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__iadd__">
+<code class="descname">__iadd__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__iadd__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by +=
+:param other: The Object to be added to self
+:return: Bruch with other added to self</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__imul__">
+<code class="descname">__imul__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__imul__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by <a href="#id1"><span class="problematic" id="id2">*</span></a>=
+:param other: The object which self gets multiplied by
+:return: Bruch with self mutliplied by other</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>args</strong> &#8211; The param has to be <a href="#id3"><span class="problematic" id="id4">*</span></a>args since you don&#8217;t know how many arguments Bruch will have.</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt>args either is:</dt>
+<dd>-just one Value which is the Zähler and the nenner is 1
+-Two values with Zähler and Nenner
+-Or a Bruch object</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__int__">
+<code class="descname">__int__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__int__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by int()
+:return: Return int value (rounded off) of self.zaehler divided by self.nenner</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__invert__">
+<code class="descname">__invert__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__invert__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by ~
+:return: Bruch with Nenner and Zähler switched</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__isub__">
+<code class="descname">__isub__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__isub__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by -=
+:param other: The Object to be subtracted from self
+:return: Bruch with self subtracted from other</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__iter__">
+<code class="descname">__iter__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__iter__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by z,n = Bruch(z,n)
+:return: Kind of a list which is iterable</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__itruediv__">
+<code class="descname">__itruediv__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__itruediv__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by /=
+:param other: The object which self gets divided by
+:return: Bruch with self divided by other</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__le__">
+<code class="descname">__le__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__le__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by &lt;=
+:param other: Value to be compared with
+:return: True if self is less than other or equal to other</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__lt__">
+<code class="descname">__lt__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__lt__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by &lt;
+:param other:
+:return: True if self is less than other</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bruch.Bruch.__module__">
+<code class="descname">__module__</code><em class="property"> = 'bruch.Bruch'</em><a class="headerlink" href="#bruch.Bruch.__module__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__mul__">
+<code class="descname">__mul__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__mul__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by *
+:param other: The object which self gets multiplied by
+:return: Bruch with self mulitplied by other</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__neg__">
+<code class="descname">__neg__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__neg__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by -
+:return: Either Bruch with negative self.zaehler or Bruch with negative self.nenner =&gt; Double negative =&gt; Positive</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__pow__">
+<code class="descname">__pow__</code><span class="sig-paren">(</span><em>power</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__pow__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by **
+:param power: The exponent of the Bruch
+:return: Bruch with self.zaehler and self.nenner to the power of the exponent</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__radd__">
+<code class="descname">__radd__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__radd__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by +
+:param other: The Object which gets self added to it
+:return: Bruch with self added to other</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__rmul__">
+<code class="descname">__rmul__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__rmul__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by *
+:param other: The object which gets multiplied by self
+:return: Bruch with other multiplied by self</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__rsub__">
+<code class="descname">__rsub__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__rsub__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by -
+:param other: The object which gets self subtracted from it
+:return: Bruch with other subtracted from self</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__rtruediv__">
+<code class="descname">__rtruediv__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__rtruediv__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by /
+:param other: The object which gets divided by self
+:return: Bruch with other divided by self</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__str__">
+<code class="descname">__str__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__str__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by str(), also called when printing
+:return: The Bruch in Parenthesis and with a Slash inbetween self.nenner and self.nenner
+If self.nenner is 1 then it&#8217;ll only put out self.zaehler</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__sub__">
+<code class="descname">__sub__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__sub__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by -
+:param other: The Object to be subtracted from self
+:return: Bruch with subtracted from other</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bruch.Bruch.__truediv__">
+<code class="descname">__truediv__</code><span class="sig-paren">(</span><em>other</em><span class="sig-paren">)</span><a class="headerlink" href="#bruch.Bruch.__truediv__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by /
+:param other: The object which self gets divided by
+:return: Bruch with self divided by other</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bruch.Bruch.__weakref__">
+<code class="descname">__weakref__</code><a class="headerlink" href="#bruch.Bruch.__weakref__" title="Permalink to this definition">¶</a></dt>
+<dd><p>list of weak references to the object (if defined)</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to Bruch&#8217;s documentation!</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/code.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, Martin Woelfer.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.8</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
+      
+      |
+      <a href="_sources/code.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
