@@ -1,0 +1,238 @@
+************* Module testall
+testall.py:24: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:28: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:32: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:38: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:51: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:55: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:69: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:73: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:77: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:81: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:85: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:101: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:104: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:107: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:110: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:113: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:116: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:133: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:138: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:155: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:159: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:163: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:167: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:171: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:175: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:198: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:202: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:206: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:220: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:224: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:228: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:245: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:249: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:253: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:260: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:264: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:268: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:288: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:292: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:296: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:303: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:320: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:324: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:344: [C0325(superfluous-parens), ] Unnecessary parens after 'assert' keyword
+testall.py:7: [W0401(wildcard-import), ] Wildcard import Bruch
+testall.py:15: [C0103(invalid-name), TestAllgemein.setUp] Invalid attribute name "b3"
+testall.py:13: [C0103(invalid-name), TestAllgemein.setUp] Invalid attribute name "b"
+testall.py:14: [C0103(invalid-name), TestAllgemein.setUp] Invalid attribute name "b2"
+testall.py:10: [C0111(missing-docstring), TestAllgemein] Missing class docstring
+testall.py:16: [W0107(unnecessary-pass), TestAllgemein.setUp] Unnecessary pass statement
+testall.py:20: [W0107(unnecessary-pass), TestAllgemein.tearDown] Unnecessary pass statement
+testall.py:22: [C0103(invalid-name), TestAllgemein.testFloat] Invalid method name "testFloat"
+testall.py:22: [C0111(missing-docstring), TestAllgemein.testFloat] Missing method docstring
+testall.py:23: [C0103(invalid-name), TestAllgemein.testFloat] Invalid variable name "b"
+testall.py:22: [R0201(no-self-use), TestAllgemein.testFloat] Method could be a function
+testall.py:26: [C0103(invalid-name), TestAllgemein.testInt] Invalid method name "testInt"
+testall.py:26: [C0111(missing-docstring), TestAllgemein.testInt] Missing method docstring
+testall.py:27: [C0103(invalid-name), TestAllgemein.testInt] Invalid variable name "b"
+testall.py:26: [R0201(no-self-use), TestAllgemein.testInt] Method could be a function
+testall.py:30: [C0103(invalid-name), TestAllgemein.testComplex] Invalid method name "testComplex"
+testall.py:30: [C0111(missing-docstring), TestAllgemein.testComplex] Missing method docstring
+testall.py:31: [C0103(invalid-name), TestAllgemein.testComplex] Invalid variable name "b"
+testall.py:30: [R0201(no-self-use), TestAllgemein.testComplex] Method could be a function
+testall.py:34: [C0103(invalid-name), TestAllgemein.testInvert] Invalid method name "testInvert"
+testall.py:34: [C0111(missing-docstring), TestAllgemein.testInvert] Missing method docstring
+testall.py:35: [C0103(invalid-name), TestAllgemein.testInvert] Invalid variable name "z"
+testall.py:36: [C0103(invalid-name), TestAllgemein.testInvert] Invalid variable name "n"
+testall.py:37: [C0103(invalid-name), TestAllgemein.testInvert] Invalid variable name "b"
+testall.py:34: [R0201(no-self-use), TestAllgemein.testInvert] Method could be a function
+testall.py:40: [C0103(invalid-name), TestAllgemein.testcreateBruchZeroError] Invalid method name "testcreateBruchZeroError"
+testall.py:40: [C0111(missing-docstring), TestAllgemein.testcreateBruchZeroError] Missing method docstring
+testall.py:43: [C0103(invalid-name), TestAllgemein.testcreateBruchWrongTypeNenner] Invalid method name "testcreateBruchWrongTypeNenner"
+testall.py:43: [C0111(missing-docstring), TestAllgemein.testcreateBruchWrongTypeNenner] Missing method docstring
+testall.py:46: [C0103(invalid-name), TestAllgemein.testcreateBruchWrongTypeZaehler] Invalid method name "testcreateBruchWrongTypeZaehler"
+testall.py:46: [C0111(missing-docstring), TestAllgemein.testcreateBruchWrongTypeZaehler] Missing method docstring
+testall.py:49: [C0103(invalid-name), TestAllgemein.testInteger] Invalid method name "testInteger"
+testall.py:49: [C0111(missing-docstring), TestAllgemein.testInteger] Missing method docstring
+testall.py:53: [C0103(invalid-name), TestAllgemein.testPow] Invalid method name "testPow"
+testall.py:53: [C0111(missing-docstring), TestAllgemein.testPow] Missing method docstring
+testall.py:54: [C0103(invalid-name), TestAllgemein.testPow] Invalid variable name "h"
+testall.py:57: [C0103(invalid-name), TestAllgemein.testPowError1] Invalid method name "testPowError1"
+testall.py:57: [C0111(missing-docstring), TestAllgemein.testPowError1] Missing method docstring
+testall.py:60: [C0103(invalid-name), TestAllgemein.testPowError2] Invalid method name "testPowError2"
+testall.py:60: [C0111(missing-docstring), TestAllgemein.testPowError2] Missing method docstring
+testall.py:63: [C0103(invalid-name), TestAllgemein.test_makeBruchTypeError] Invalid method name "test_makeBruchTypeError"
+testall.py:63: [C0111(missing-docstring), TestAllgemein.test_makeBruchTypeError] Missing method docstring
+testall.py:64: [W0212(protected-access), TestAllgemein.test_makeBruchTypeError] Access to a protected member _Bruch__makeBruch of a client class
+testall.py:66: [C0103(invalid-name), TestAllgemein.test_makeBruchInt] Invalid method name "test_makeBruchInt"
+testall.py:66: [C0111(missing-docstring), TestAllgemein.test_makeBruchInt] Missing method docstring
+testall.py:68: [C0103(invalid-name), TestAllgemein.test_makeBruchInt] Invalid variable name "b4"
+testall.py:68: [W0212(protected-access), TestAllgemein.test_makeBruchInt] Access to a protected member _Bruch__makeBruch of a client class
+testall.py:66: [R0201(no-self-use), TestAllgemein.test_makeBruchInt] Method could be a function
+testall.py:71: [C0103(invalid-name), TestAllgemein.testAbs] Invalid method name "testAbs"
+testall.py:71: [C0111(missing-docstring), TestAllgemein.testAbs] Missing method docstring
+testall.py:72: [C0103(invalid-name), TestAllgemein.testAbs] Invalid variable name "b4"
+testall.py:71: [R0201(no-self-use), TestAllgemein.testAbs] Method could be a function
+testall.py:75: [C0103(invalid-name), TestAllgemein.testNeg] Invalid method name "testNeg"
+testall.py:75: [C0111(missing-docstring), TestAllgemein.testNeg] Missing method docstring
+testall.py:76: [C0103(invalid-name), TestAllgemein.testNeg] Invalid variable name "b4"
+testall.py:75: [R0201(no-self-use), TestAllgemein.testNeg] Method could be a function
+testall.py:80: [C0103(invalid-name), TestAllgemein.testRef] Invalid method name "testRef"
+testall.py:80: [C0111(missing-docstring), TestAllgemein.testRef] Missing method docstring
+testall.py:83: [C0103(invalid-name), TestAllgemein.testRef2] Invalid method name "testRef2"
+testall.py:83: [C0111(missing-docstring), TestAllgemein.testRef2] Missing method docstring
+testall.py:84: [C0103(invalid-name), TestAllgemein.testRef2] Invalid variable name "b4"
+testall.py:93: [C0103(invalid-name), TestVergleich.setUp] Invalid attribute name "b3"
+testall.py:91: [C0103(invalid-name), TestVergleich.setUp] Invalid attribute name "b"
+testall.py:92: [C0103(invalid-name), TestVergleich.setUp] Invalid attribute name "b2"
+testall.py:88: [C0111(missing-docstring), TestVergleich] Missing class docstring
+testall.py:94: [W0107(unnecessary-pass), TestVergleich.setUp] Unnecessary pass statement
+testall.py:98: [W0107(unnecessary-pass), TestVergleich.tearDown] Unnecessary pass statement
+testall.py:100: [C0103(invalid-name), TestVergleich.testEqual] Invalid method name "testEqual"
+testall.py:100: [C0111(missing-docstring), TestVergleich.testEqual] Missing method docstring
+testall.py:103: [C0103(invalid-name), TestVergleich.testNotEqual] Invalid method name "testNotEqual"
+testall.py:103: [C0111(missing-docstring), TestVergleich.testNotEqual] Missing method docstring
+testall.py:106: [C0103(invalid-name), TestVergleich.testGE] Invalid method name "testGE"
+testall.py:106: [C0111(missing-docstring), TestVergleich.testGE] Missing method docstring
+testall.py:109: [C0103(invalid-name), TestVergleich.testLE] Invalid method name "testLE"
+testall.py:109: [C0111(missing-docstring), TestVergleich.testLE] Missing method docstring
+testall.py:112: [C0103(invalid-name), TestVergleich.testLT] Invalid method name "testLT"
+testall.py:112: [C0111(missing-docstring), TestVergleich.testLT] Missing method docstring
+testall.py:115: [C0103(invalid-name), TestVergleich.testGT] Invalid method name "testGT"
+testall.py:115: [C0111(missing-docstring), TestVergleich.testGT] Missing method docstring
+testall.py:124: [C0103(invalid-name), TestString.setUp] Invalid attribute name "b3"
+testall.py:122: [C0103(invalid-name), TestString.setUp] Invalid attribute name "b"
+testall.py:123: [C0103(invalid-name), TestString.setUp] Invalid attribute name "b2"
+testall.py:119: [C0111(missing-docstring), TestString] Missing class docstring
+testall.py:125: [W0107(unnecessary-pass), TestString.setUp] Unnecessary pass statement
+testall.py:129: [W0107(unnecessary-pass), TestString.tearDown] Unnecessary pass statement
+testall.py:131: [C0111(missing-docstring), TestString.teststr] Missing method docstring
+testall.py:135: [C0111(missing-docstring), TestString.teststr2] Missing method docstring
+testall.py:136: [C0103(invalid-name), TestString.teststr2] Invalid variable name "b2"
+testall.py:135: [R0201(no-self-use), TestString.teststr2] Method could be a function
+testall.py:146: [C0103(invalid-name), TestAddition.setUp] Invalid attribute name "b3"
+testall.py:144: [C0103(invalid-name), TestAddition.setUp] Invalid attribute name "b"
+testall.py:145: [C0103(invalid-name), TestAddition.setUp] Invalid attribute name "b2"
+testall.py:141: [C0111(missing-docstring), TestAddition] Missing class docstring
+testall.py:147: [W0107(unnecessary-pass), TestAddition.setUp] Unnecessary pass statement
+testall.py:151: [W0107(unnecessary-pass), TestAddition.tearDown] Unnecessary pass statement
+testall.py:153: [C0111(missing-docstring), TestAddition.testplus] Missing method docstring
+testall.py:157: [C0111(missing-docstring), TestAddition.testplus2] Missing method docstring
+testall.py:161: [C0111(missing-docstring), TestAddition.testplus3] Missing method docstring
+testall.py:165: [C0111(missing-docstring), TestAddition.testradd] Missing method docstring
+testall.py:169: [C0103(invalid-name), TestAddition.testiAdd] Invalid method name "testiAdd"
+testall.py:169: [C0111(missing-docstring), TestAddition.testiAdd] Missing method docstring
+testall.py:173: [C0103(invalid-name), TestAddition.testiAdd2] Invalid method name "testiAdd2"
+testall.py:173: [C0111(missing-docstring), TestAddition.testiAdd2] Missing method docstring
+testall.py:177: [C0103(invalid-name), TestAddition.testaddError] Invalid method name "testaddError"
+testall.py:177: [C0111(missing-docstring), TestAddition.testaddError] Missing method docstring
+testall.py:180: [C0103(invalid-name), TestAddition.testiAddError] Invalid method name "testiAddError"
+testall.py:180: [C0111(missing-docstring), TestAddition.testiAddError] Missing method docstring
+testall.py:189: [C0103(invalid-name), TestSubtraktion.setUp] Invalid attribute name "b3"
+testall.py:187: [C0103(invalid-name), TestSubtraktion.setUp] Invalid attribute name "b"
+testall.py:188: [C0103(invalid-name), TestSubtraktion.setUp] Invalid attribute name "b2"
+testall.py:184: [C0111(missing-docstring), TestSubtraktion] Missing class docstring
+testall.py:190: [W0107(unnecessary-pass), TestSubtraktion.setUp] Unnecessary pass statement
+testall.py:194: [W0107(unnecessary-pass), TestSubtraktion.tearDown] Unnecessary pass statement
+testall.py:196: [C0111(missing-docstring), TestSubtraktion.testminus] Missing method docstring
+testall.py:200: [C0111(missing-docstring), TestSubtraktion.testminus2] Missing method docstring
+testall.py:204: [C0111(missing-docstring), TestSubtraktion.testminus3] Missing method docstring
+testall.py:208: [C0103(invalid-name), TestSubtraktion.testiSubError] Invalid method name "testiSubError"
+testall.py:208: [C0111(missing-docstring), TestSubtraktion.testiSubError] Missing method docstring
+testall.py:211: [C0103(invalid-name), TestSubtraktion.testrsubError] Invalid method name "testrsubError"
+testall.py:218: [C0103(invalid-name), TestSubtraktion.testiSub] Invalid method name "testiSub"
+testall.py:218: [C0111(missing-docstring), TestSubtraktion.testiSub] Missing method docstring
+testall.py:222: [C0103(invalid-name), TestSubtraktion.testiSub2] Invalid method name "testiSub2"
+testall.py:222: [C0111(missing-docstring), TestSubtraktion.testiSub2] Missing method docstring
+testall.py:226: [C0111(missing-docstring), TestSubtraktion.testrsub] Missing method docstring
+testall.py:236: [C0103(invalid-name), TestMultiplikation.setUp] Invalid attribute name "b3"
+testall.py:234: [C0103(invalid-name), TestMultiplikation.setUp] Invalid attribute name "b"
+testall.py:235: [C0103(invalid-name), TestMultiplikation.setUp] Invalid attribute name "b2"
+testall.py:231: [C0111(missing-docstring), TestMultiplikation] Missing class docstring
+testall.py:237: [W0107(unnecessary-pass), TestMultiplikation.setUp] Unnecessary pass statement
+testall.py:241: [W0107(unnecessary-pass), TestMultiplikation.tearDown] Unnecessary pass statement
+testall.py:243: [C0111(missing-docstring), TestMultiplikation.testmal] Missing method docstring
+testall.py:247: [C0111(missing-docstring), TestMultiplikation.testmal2] Missing method docstring
+testall.py:251: [C0111(missing-docstring), TestMultiplikation.testmal3] Missing method docstring
+testall.py:255: [C0103(invalid-name), TestMultiplikation.testiMulError] Invalid method name "testiMulError"
+testall.py:255: [C0111(missing-docstring), TestMultiplikation.testiMulError] Missing method docstring
+testall.py:258: [C0103(invalid-name), TestMultiplikation.testiMul] Invalid method name "testiMul"
+testall.py:258: [C0111(missing-docstring), TestMultiplikation.testiMul] Missing method docstring
+testall.py:262: [C0103(invalid-name), TestMultiplikation.testiMul2] Invalid method name "testiMul2"
+testall.py:262: [C0111(missing-docstring), TestMultiplikation.testiMul2] Missing method docstring
+testall.py:266: [C0111(missing-docstring), TestMultiplikation.testrmal] Missing method docstring
+testall.py:270: [C0103(invalid-name), TestMultiplikation.testmulError] Invalid method name "testmulError"
+testall.py:270: [C0111(missing-docstring), TestMultiplikation.testmulError] Missing method docstring
+testall.py:279: [C0103(invalid-name), TestDivision.setUp] Invalid attribute name "b3"
+testall.py:277: [C0103(invalid-name), TestDivision.setUp] Invalid attribute name "b"
+testall.py:278: [C0103(invalid-name), TestDivision.setUp] Invalid attribute name "b2"
+testall.py:274: [C0111(missing-docstring), TestDivision] Missing class docstring
+testall.py:280: [W0107(unnecessary-pass), TestDivision.setUp] Unnecessary pass statement
+testall.py:284: [W0107(unnecessary-pass), TestDivision.tearDown] Unnecessary pass statement
+testall.py:286: [C0111(missing-docstring), TestDivision.testdiv] Missing method docstring
+testall.py:290: [C0111(missing-docstring), TestDivision.testdiv2] Missing method docstring
+testall.py:294: [C0111(missing-docstring), TestDivision.testdiv3] Missing method docstring
+testall.py:298: [C0103(invalid-name), TestDivision.testrdivError] Invalid method name "testrdivError"
+testall.py:298: [C0111(missing-docstring), TestDivision.testrdivError] Missing method docstring
+testall.py:301: [C0111(missing-docstring), TestDivision.testrdiv] Missing method docstring
+testall.py:305: [C0103(invalid-name), TestDivision.testdivZeroError] Invalid method name "testdivZeroError"
+testall.py:305: [C0111(missing-docstring), TestDivision.testdivZeroError] Missing method docstring
+testall.py:308: [C0103(invalid-name), TestDivision.testdivTypeError] Invalid method name "testdivTypeError"
+testall.py:308: [C0111(missing-docstring), TestDivision.testdivTypeError] Missing method docstring
+testall.py:311: [C0103(invalid-name), TestDivision.testdivZeroError2] Invalid method name "testdivZeroError2"
+testall.py:311: [C0111(missing-docstring), TestDivision.testdivZeroError2] Missing method docstring
+testall.py:314: [C0103(invalid-name), TestDivision.testrdivZeroError] Invalid method name "testrdivZeroError"
+testall.py:314: [C0111(missing-docstring), TestDivision.testrdivZeroError] Missing method docstring
+testall.py:318: [C0103(invalid-name), TestDivision.testiDiv] Invalid method name "testiDiv"
+testall.py:318: [C0111(missing-docstring), TestDivision.testiDiv] Missing method docstring
+testall.py:322: [C0103(invalid-name), TestDivision.testiDiv2] Invalid method name "testiDiv2"
+testall.py:322: [C0111(missing-docstring), TestDivision.testiDiv2] Missing method docstring
+testall.py:326: [C0103(invalid-name), TestDivision.testiDivError] Invalid method name "testiDivError"
+testall.py:326: [C0111(missing-docstring), TestDivision.testiDivError] Missing method docstring
+testall.py:335: [C0103(invalid-name), TestIteration.setUp] Invalid attribute name "b3"
+testall.py:333: [C0103(invalid-name), TestIteration.setUp] Invalid attribute name "b"
+testall.py:334: [C0103(invalid-name), TestIteration.setUp] Invalid attribute name "b2"
+testall.py:330: [C0111(missing-docstring), TestIteration] Missing class docstring
+testall.py:336: [W0107(unnecessary-pass), TestIteration.setUp] Unnecessary pass statement
+testall.py:340: [W0107(unnecessary-pass), TestIteration.tearDown] Unnecessary pass statement
+testall.py:342: [C0103(invalid-name), TestIteration.testTuple] Invalid method name "testTuple"
+testall.py:342: [C0111(missing-docstring), TestIteration.testTuple] Missing method docstring
+testall.py:343: [C0103(invalid-name), TestIteration.testTuple] Invalid variable name "z"
+testall.py:343: [C0103(invalid-name), TestIteration.testTuple] Invalid variable name "n"
+testall.py:342: [R0201(no-self-use), TestIteration.testTuple] Method could be a function
+testall.py:346: [C0103(invalid-name), TestIteration.testTuple2] Invalid method name "testTuple2"
+testall.py:346: [C0111(missing-docstring), TestIteration.testTuple2] Missing method docstring
+testall.py:347: [C0103(invalid-name), TestIteration.testTuple2] Invalid variable name "z"
+testall.py:347: [C0103(invalid-name), TestIteration.testTuple2] Invalid variable name "n"
+testall.py:350: [C0103(invalid-name), TestIteration.testTuple3_Error] Invalid method name "testTuple3_Error"
+testall.py:350: [C0111(missing-docstring), TestIteration.testTuple3_Error] Missing method docstring
+testall.py:351: [C0103(invalid-name), TestIteration.testTuple3_Error] Invalid variable name "b3"
+testall.py:355: [C0103(invalid-name), TestIteration.tryIndex] Invalid method name "tryIndex"
+testall.py:355: [C0111(missing-docstring), TestIteration.tryIndex] Missing method docstring
+testall.py:7: [W0614(unused-wildcard-import), ] Unused import lcm from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 0.68/10 (previous run: 0.68/10, +0.00)
+
